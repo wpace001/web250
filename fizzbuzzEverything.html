@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="fizzbuzz.js"></script>
+    <title>Soulless Customs</title>
+</head>
+
+<body>
+    <div id="slideout-menu">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="merch.html">Merch</a>
+            </li>
+            <li>
+                <a href="customs.html">Customs</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <input type="text" placeholder="Search Here">
+            </li>
+        </ul>
+    </div>
+
+    <nav>
+        <div id="logo-img">
+            <a href="index.html">
+                <p>Soulless Customs</p>
+            </a>
+        </div>
+        <div id="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul>
+            <li>
+                <a class="active" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="merch.html">Merch</a>
+            </li>
+            <li>
+                <a href="customs.html">Customs</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <div id="search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="searchbox">
+        <input type="text" placeholder="Search Here">
+    </div>
+
+    <div id="banner">
+        <img src="img/Soulless Customs.gif" alt="SC logo" />
+        <h3>Built to Win Games</h3>
+    </div>
+
+    <main>
+        <h2 class="section-heading">Fizz Buzz Everything</h2>
+
+        <section>
+            <form class="fizzbuzz" id="fizzbuzz_form">
+                <div class="name">
+                    <label for="first_name">First name:</label>
+                    <input type="text" id="first_name" name="first_name" value="William"><br>
+                    <label for="last_name">Last name:</label>
+                    <input type="text" id="last_name" name="last_name" value="Pace"><br>
+                    <label for="middle_initial">Middle Initial:</label>
+                    <input type="text" id="middle_initial" name="middle_initial" value="R"><br>
+                </div>
+                <div class="for_list">
+                    <div class="words">
+                        <div class="word_to_add">
+                            <label for="main_word">Main word:</label><br>
+                            <input type="text" id="main_word" name="main_word" value="fizzbuzzbang."><br>
+                        </div>
+                        <div class="word_to_add">
+                            <label for="list_length">List length:</label><br>
+                            <input type="number" id="list_length" name="list_length" value="100"><br>
+                        </div>
+                    </div>
+                    <div class="words">
+                        <div class="word_to_add">
+                            <label for="first_word">First word:</label><br>
+                            <input type="text" id="first_word" name="first_word" value="fizz."><br>
+                        </div>
+                        <div class="word_to_add">
+                            <label for="first_number">First number:</label><br>
+                            <input type="number" id="first_number" name="first_number" value="6"><br>
+                        </div>
+                    </div>
+                    <div class="words">
+                        <div class="word_to_add">
+                            <label for="second_word">Second word:</label><br>
+                            <input type="text" id="second_word" name="second_word" value="buzz."><br>
+                        </div>
+                        <div class="word_to_add">
+                            <label for="second_number">Second number:</label><br>
+                            <input type="number" id="second_number" name="second_number" value="9"><br>
+                        </div>
+                    </div>
+                    <div class="words">
+                        <div class="word_to_add">
+                            <label for="third_word">Third word:</label><br>
+                            <input type="text" id="third_word" name="third_word" value="bang."><br>
+                        </div>
+                        <div class="word_to_add">
+                            <label for="third_number">Third number:</label><br>
+                            <input type="number" id="third_number" name="third_number" value="27"><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="buttons_fizzbuzz4">
+                    <button type="button" id="submit_fizzbuzz4" onclick="submit_click()">Create list</button>
+                    <button type="button" id="modify_fizzbuzz4" onclick="modify_list()">Click to Change</button>
+                </div>
+            </form>
+        </section>
+
+
+
+        <h2 class="section-heading">Source Code</h2>
+
+        <section id="section-source">
+            <p>
+                Come check me out on GitHub
+            </p>
+            <a href="https://github.com/wpace001/web250" class="btn-readmore">GitHub Profile</a>
+        </section>
+
+        <footer>
+            <div id="left-footer">
+                <h3>Quick Links</h3>
+                <p>
+                    <ul>
+                        <li>
+                            <a class="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="merch.html">Merch</a>
+                        </li>
+                        <li>
+                            <a href="customs.html">Customs</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="right-footer">
+                <h3>Follow us on</h3>
+                <div id="social-media-footer">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/wpace001/web250">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>This website is developed by Soulless Customs</p>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
